@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#d81b60</color>
+
+    <color name="colorAppDivider">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colortWhite">#CCCCCC</color>
+
+    <color name="colorPrimaryDark_1">#979797</color>
+    <color name="colorPrimaryDark_2">#939393</color>
+    <color name="colorPrimaryDark_3">#9A9A9A</color>
+    <color name="colorPrimaryDark_4">#AAB0BB</color>
+    <color name="colorPrimaryDark_5">#ffffff</color>
+
+</resources>

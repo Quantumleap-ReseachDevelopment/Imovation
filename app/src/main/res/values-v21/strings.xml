@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gallery">Gallery</string>
+    <string name="slideshow">Slideshow</string>
+    <string name="tools">Tools</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="send">Send</string>
+    <string name="imports">Import</string>
+    <string name="nav_company">Company</string>
+    <string name="department">Department</string>
+    <string name="button">Button</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="slide_next">NEXT</string>
+    <string name="row_image">IMAGES</string>
+    <string name="reset">Reset</string>
+</resources>

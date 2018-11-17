@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:theme="@style/AppTheme.NoActionBar"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/slide_button_back"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="52dp"
+        android:accessibilityLiveRegion="polite"
+        android:bufferType="normal"
+        android:clickable="false"
+        android:focusable="true"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/dots_change_ani" />
+
+    <Button
+        android:id="@+id/slide_button_next"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="28dp"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="@+id/slide_button_back"
+        app:layout_constraintEnd_toEndOf="@+id/dots_change_ani"
+        app:layout_constraintTop_toTopOf="@+id/slide_button_back"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/dots_change_ani"
+        android:layout_width="0dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center_vertical|center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
